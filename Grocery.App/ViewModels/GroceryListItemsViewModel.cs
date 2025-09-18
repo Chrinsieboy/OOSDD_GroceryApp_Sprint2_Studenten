@@ -63,6 +63,7 @@ namespace Grocery.App.ViewModels
                 GroceryListItem newItem = new(0, GroceryList.Id, product.Id, 1);
                 _groceryListItemsService.Add(newItem);
 
+                product.Stock -= 1;
                 _productService.Update(product);
                 GetAvailableProducts();
                 OnGroceryListChanged(GroceryList);
