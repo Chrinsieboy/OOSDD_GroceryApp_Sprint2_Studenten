@@ -21,6 +21,7 @@ Here are the branches we use:
 | `feature/<name>` | New features, enhancements, or tasks (e.g. implementing UC05, adding new service, etc.). Branch off from `develop`. |
 | `hotfix/<description>` | For urgent fixes when the code in `main` fails in production. Branch off `main`. |
 | `docs/<description>` | Documentation updates. Branch off `develop`. |
+| `release/<version>` | Prepares a new production release. Branch off `develop`. |
 
 Check for more kinds of branches on [Conventional Branches](https://conventional-branch.github.io/)
 
